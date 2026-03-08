@@ -257,7 +257,7 @@ function getApiKey() { return progress.apiKey || document.getElementById('apiKey
 // ================================================
 async function generateStory() {
   const apiKey = getApiKey();
-  if (!apiKey || apiKey.startsWith('PASTE')) {
+  if (!apiKey || apiKey.startsWith('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')) {
     showError('Please enter your OpenAI API key above first.');
     return;
   }
